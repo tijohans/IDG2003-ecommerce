@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 20px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    margin-bottom: 10vh;
+}
+
+.content-table  th {
+    color: white;
+    background-color: rgb(77, 138, 143);
+    font-weight: bold ;
+    text-align: left;
+}
+
+.content-table th, 
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.content-table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.tableImg {
+    width: 100px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px;
+    border: 2px solid rgb(77, 138, 143);
+    border-radius: 8px;
+    padding: 10px;
+    width: 30vw;
+    margin-bottom: 10vh;
+}
+
+form input {
+    width: 80%;
+}
+
+form .submit {
+    padding: 3px;
+    margin-block: 3px;
+}
+
+form > * {
+    padding-block: 2px;
+}
+
+nav {
+    height: 5vh;
+}
